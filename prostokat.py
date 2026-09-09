@@ -1,5 +1,5 @@
-a = (float or int)(input("Wpisz długość boku numer 1: "))
-b = (float or int)(input("Wpisz długość boku numer 2: "))
+a = float(input("Wpisz długość boku numer 1: "))
+b = float(input("Wpisz długość boku numer 2: "))
 
 if b == a:
     print("Długość boków prostokąta nie może być taka sama")
