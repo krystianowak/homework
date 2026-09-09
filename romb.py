@@ -1,7 +1,7 @@
 T = "T"
 N = "N"
-e = (float or int)(input("Podaj 1. przekątną rombu: "))
-f = (float or int)(input("Podaj 2. przekątną rombu: "))
+e = float(input("Podaj 1. przekątną rombu: "))
+f = float(input("Podaj 2. przekątną rombu: "))
 
 print(f"Pole rombu o przekątnej nr 1 równej {e} i przekątnej nr 2 równej {f} jest równe {(e*f)/2}")
 
@@ -14,6 +14,6 @@ if confirmation == float or int:
     exit()
 
 if confirmation == T:
-    a = (float or int)(input("Podaj długość podstawy rombu: "))
-    h = (float or int)(input("Podaj wysokość rombu: "))
+    a = float(input("Podaj długość podstawy rombu: "))
+    h = float(input("Podaj wysokość rombu: "))
 print(f"Pole rombu o podstawie równej {a} i wysokości równej {h} jest równe {a*h}")
